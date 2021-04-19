@@ -1,0 +1,9 @@
+.sendTuit{
+    &__abrirModal{
+        position: fixed !important;
+        right: 30px;
+        bottom: 30px;
+        background-color: rgb(4, 4, 68);
+        z-index: 1;
+    }
+}

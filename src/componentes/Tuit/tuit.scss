@@ -1,0 +1,24 @@
+.tuit{
+    position: relative;
+    width: 300px;
+    margin: 10px 0;
+    
+    .headerTuit{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h5{
+            margin: 0;
+        }
+        svg:hover{
+            fill:red;
+            cursor:pointer
+        }
+    }
+    .TuitFecha{
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+        font-size: 10px;
+    }
+}
