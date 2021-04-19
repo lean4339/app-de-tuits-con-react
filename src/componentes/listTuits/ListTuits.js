@@ -5,7 +5,7 @@ import Tuit from "../Tuit/Tuit"
 
 export default function listTuits(props){
     let {allTuits,deleteTuit} = props
-    if(!allTuits || allTuits== null || allTuits.length == 0){
+    if(!allTuits || allTuits== null || allTuits[0] == null){
         return (
             <div className="listTuitsEmpty">
                 <h2>No hay tuits</h2>
